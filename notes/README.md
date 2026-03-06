@@ -1,14 +1,14 @@
-# How-To Guides & Playbooks
+# Research, Brainstorming & Daily Logs
 
-This directory is the "Operator's Manual." If a task needs to be performed more than once, it must be documented here.
+The `notes/` folder is a low-friction environment for capturing fleeting thoughts and technical research.
 
-## Writing Standards
-- **Prerequisites:** Always list required software and versions at the top.
-- **Copy-Paste Friendly:** Provide code blocks that can be executed directly in the terminal.
-- **Troubleshooting:** Include a "Common Errors" section if the process is flaky.
+## Sub-structure
+- `/research`: In-depth analysis of new libraries or frameworks.
+- `/meetings`: Key takeaways from syncs or pair programming sessions.
+- `/logs`: Daily or weekly progress tracking (devlog).
 
-## Categories
-- **Setup:** Initializing the dev environment.
-- **Database:** Migrations, seeding, and backups.
-- **Security:** Managing secrets and environment variables.
-- **Deployment:** CI/CD pipelines and cloud configuration.
+## The Cleanup Rule
+Notes are **temporary** by nature. Once a research project concludes or a process is finalized, the content must be:
+1. Promoted to a **How-To** guide.
+2. Formalized as a **Decision**.
+3. Or deleted/archived if no longer relevant.
